@@ -1,0 +1,13 @@
+C:\Users\Omso\Desktop\lera1\bin\Debug\netcoreapp3.1\lera1.exe
+C:\Users\Omso\Desktop\lera1\bin\Debug\netcoreapp3.1\lera1.deps.json
+C:\Users\Omso\Desktop\lera1\bin\Debug\netcoreapp3.1\lera1.runtimeconfig.json
+C:\Users\Omso\Desktop\lera1\bin\Debug\netcoreapp3.1\lera1.runtimeconfig.dev.json
+C:\Users\Omso\Desktop\lera1\bin\Debug\netcoreapp3.1\lera1.dll
+C:\Users\Omso\Desktop\lera1\bin\Debug\netcoreapp3.1\lera1.pdb
+C:\Users\Omso\Desktop\lera1\obj\Debug\netcoreapp3.1\lera1.AssemblyInfoInputs.cache
+C:\Users\Omso\Desktop\lera1\obj\Debug\netcoreapp3.1\lera1.AssemblyInfo.cs
+C:\Users\Omso\Desktop\lera1\obj\Debug\netcoreapp3.1\lera1.csproj.CoreCompileInputs.cache
+C:\Users\Omso\Desktop\lera1\obj\Debug\netcoreapp3.1\lera1.dll
+C:\Users\Omso\Desktop\lera1\obj\Debug\netcoreapp3.1\lera1.pdb
+C:\Users\Omso\Desktop\lera1\obj\Debug\netcoreapp3.1\lera1.genruntimeconfig.cache
+C:\Users\Omso\Desktop\lera1\obj\Debug\netcoreapp3.1\lera1.csprojAssemblyReference.cache

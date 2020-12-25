@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JSON in html view</title>
+</head>
+<header>
+</header>
+<body>
+<script>
+	const header = document.querySelector('header');
+	let requestURL = 'http://validate.jsontest.com/?json={"key":"value"}';
+	let request = new XMLHttpRequest();
+	request.open('GET', requestURL);
+	request.responseType = 'json';
+	request.send();
+	request.onload = function() {
+	  const data = request.response;
+	  convert(data);
+	}
+	
+	function convert(obj) {
+	  const myH1 = document.createElement('h1');
+	  myH1.textContent = 'size: ' + obj['size'];
+	  header.appendChild(myH1);
+
+	  const myH2 = document.createElement('h2');
+	  const myH3 = document.createElement('h3');
+	  const myH4 = document.createElement('h4');
+	  const myH5 = document.createElement('h5');
+	  myH2.textContent = 'parse_time_nanoseconds: ' + obj['parse_time_nanoseconds'];
+	  myH3.textContent = 'object_or_array: ' + obj['object_or_array'];
+	  myH4.textContent = 'validate: ' + obj['validate'];
+	  myH5.textContent = 'empty: ' + obj['empty'];
+	  header.appendChild(myH2);
+	  header.appendChild(myH3);
+	  header.appendChild(myH4);
+	  header.appendChild(myH5);
+}
+</script>
+
+</body>
+
+</html> 
